@@ -4,6 +4,10 @@
 在元素上添加date-pick属性
 例如：`<button date-pick>年月日</button>`
 
+### 示例
+![年月日](img/ymd.png)
+![选择月](img/month.png)
+
 ## 设置日期格式		
 1. `<button date-pick data-format="yyyy-MM-dd">年月日</button>`
 2. `<button date-pick data-format="yyyy-MM">年月</button>`
