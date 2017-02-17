@@ -8,6 +8,7 @@
 1. `<button date-pick data-format="yyyy-MM-dd">年月日</button>`
 2. `<button date-pick data-format="yyyy-MM">年月</button>`
 3. `<button date-pick data-format="yyyy/MM/dd">年月日</button>`
+4. `<button date-pick data-format="yyyy/MM/dd" data-option="d">年月日， 日可选</button>`
 
 
 ### 如果页面没有引入 datepick.css , 脚本会自动引入该css
