@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>日期选择器</title>
+		<style>
+			button{
+				width: 100px;
+				height: 40px;
+				border: 1px solid #aaa;
+				background: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<input date-pick data-format="yyyy-MM" />
+		<div style="margin: 20px; padding: 20px;">
+			<input date-pick />
+		</div>
+		
+		<div style="margin: 100px; padding: 100; border: 20px solid #ddd;">
+		<div style="margin: 20px; padding: 20px;">
+			<input date-pick data-format="yyyy/MM/dd" />
+		</div>
+			
+		</div>
+		
+		<button date-pick data-format="yyyy">选择年</button>
+		<button date-pick data-format="yy年">选择年</button>
+		<button date-pick data-format="MM">选择月</button>
+		<button date-pick data-format="M月">选择月</button>
+		<button date-pick data-format="dd">选择天</button>
+		<button date-pick data-format="d 号">选择天</button>
+		<button date-pick data-format="yyyy-MM">选择年月</button>
+		<button date-pick data-format="MM-dd">选择月日</button>
+		<button date-pick data-format="dd/MM/yyyy">选择年月日</button>
+
+
+		<button date-pick data-format="yyyy-MM-dd">选择年月日</button>
+		<button date-pick data-format="yyyy-MM-dd" data-option="d">年月日 可选天</button>
+
+		<script type="text/javascript" src="datepick.js" ></script>
+	</body>	
+</html>
+ 
